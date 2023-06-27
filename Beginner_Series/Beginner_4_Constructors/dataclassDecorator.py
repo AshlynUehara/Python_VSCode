@@ -19,8 +19,10 @@ class Student:
 
 
 student1 = Student()
-# print(student1.rollNumber) # AttributeError: 'Student' object has no attribute 'rollNumber'
 
+print(type(student1.rollNumber))
+
+# print(student1.rollNumber) # AttributeError: 'Student' object has no attribute 'rollNumber'
 student1.rollNumber = 6
 print(student1.rollNumber) # returns 6
 
